@@ -10,10 +10,24 @@
     font-weight: 700;
 }
 
+.maincon {
+    margin: 0 auto;
+    max-width: max-content;
+    position: relative;
+}
+
+.header {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background-image: url(img/svg/cover-image-dark.jpg);
+}
+
 .navigation {
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-top: 20px;
 }
 
 .navigation button {
@@ -23,41 +37,99 @@
     border: none;
     background-color: transparent;
     padding: 0 13px;
+    display: block;
 }
 
 .navigation button:hover {
     cursor: pointer;
+    border: 1px solid #FF0070;
 }
 
-.isActiveButton {
+.boom {
     border: 1px solid #FF0070 !important;
 }
 
-.heading {
-    font-family: "IBM Plex Mono";;
-    font-weight: 700;
-    font-weight: bold;
-    color: #DB00FF;
-    font-size: 157px;
-    line-height: 129.53px;
-    conic-gradient:#FF0070;
+.boom {
+    position: relative;
 }
-.headi {
+
+.heading {
     width: 759px;
     height: 130px;
-    top: 319px;
-    background-color: #FF0070;
+    flex-shrink: 0;
 }
 
 h1 {
-    text-shadow: 4px 4px 0px rgba(255,0,112,1);
+    color: #DB00FF;
+    text-shadow: 4px 4px 0px #FF0070;
+    font-family: "IBM Plex Mono";
+    font-size: 157px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5%; /* 129.525px */
+    position: absolute;
+    top: 319px;
+    margin: 0;
 }
+
+
 .background {
-    background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
-    width: Fixed 1024px;
-    height: Fixed 768px;
-    left: -102px;
-    padding: 20px 0px 0px 0px;
-    gap: 10px;
-    opacity: 0px;
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../img/svg/cover-image-dark.jpg);
+    background-size: 1229px 768px;
+    background-position-x: -102;
 }
+
+.bebr {
+    display: flex;
+    position: absolute;
+    top: 563px;
+    left: 513px;
+    background-color:#FF0070;
+    width: 491px;
+    height: 71px;
+    margin: 0;
+    top: 563px;
+}
+p { 
+    color:#000028;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+} 
+
+.rectangle1 {
+    position: absolute;
+    border-bottom: 1px solid #ff0070;
+    border-left: 1px solid #ff0070;
+    width: 25px;
+    height: 25px;
+    left: 20px;
+    top: 723px;
+}
+
+.rectangle2 {
+    position: absolute;
+    border-right: 1px solid #ff0070;
+    border-top: 1px solid #ff0070;
+    width: 25px;
+    height: 25px;
+    left: 979px;
+    top: 20px;
+}
+
+.obama {
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+
+
