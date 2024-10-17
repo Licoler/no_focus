@@ -621,11 +621,67 @@ p {
     text-align: left;
     color: #000028;
     background: #FF0070;
-
 }
 
+.tor-4 .kaka-3 {
+    width: 984px;
+    height: 1091px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
 
+.kartinka-1 {
+    position: absolute;
+    width: 315px;
+    height: 315px;
+    top: 323px;
+    left: 355px;
+}
 
+.kartinka-2 {
+    position: absolute;
+    width: 649px;
+    height: 428px;
+    top: 663px;
+    left: 355px;
+}
+
+.kartinka-3 {
+    position: absolute;
+    width: 315px;
+    height: 768px;
+    top: 323px;
+    left: 20.24px;
+}
+
+.kartinka-4 {
+    position: absolute;
+    width: 315px;
+    height: 595px;
+    top: 43px;
+    left: 689px;
+}
+
+.kartinka-5 {
+    position: absolute;
+    width: 649px;
+    height: 260px;
+    top: 43px;
+    left: 20.24px;
+}
+
+/* коцовка */
+
+.www {
+    position: absolute;
+    width: 1024px;
+    height: 768px;  
+    left: 0;
+    top: 4240px;
+}
 
 
 
