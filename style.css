@@ -10,10 +10,14 @@
     font-weight: 700;
 }
 
+body {
+    background-color: #000028;
+}
 .maincon {
     margin: 0 auto;
     max-width: max-content;
     position: relative;
+    background: url(../img/svg/cover-image-dark.jpg);
 }
 
 .header {
@@ -73,15 +77,6 @@ h1 {
 }
 
 
-.background {
-    position: relative;
-    width: 1024px;
-    height: 768px;
-    background: url(../img/svg/cover-image-dark.jpg);
-    background-size: 1229px 768px;
-    background-position-x: -102;
-}
-
 .bebr {
     display: flex;
     position: absolute;
@@ -114,8 +109,8 @@ p {
 
 .rectangle2 {
     position: absolute;
-    border-right: 1px solid #ff0070;
     border-top: 1px solid #ff0070;
+    border-right: 1px solid #ff0070;
     width: 25px;
     height: 25px;
     left: 979px;
@@ -146,118 +141,107 @@ p {
     left: 986px;
     top: 28px;
     box-shadow: 0px 0px 4px 2px #FF0070;
+    width: 9px; 
+    height: 9px; border-radius: 50%; 
+    background:#FF0070;
 }
+/*второй*/
 
-/* второй */
-.gragra {
+.all {
     width: 1024px;
     height: 3352px;
     top: 828px;
+    font-family: IBM Plex Mono;
+    gap: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.pow {
-    margin: 0 auto;
-    max-width: max-content;
-    position: relative;
-    width: 1024px;
-    height: 768px;
-    background: #000028;
-}
- 
 
-.tor {
+.tor-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    margin: 0;
     position: absolute;
     width: 1024px;
     height: 508px;
-    left: 0;
+    left: 250px;
     top: 828px;
-
+    padding: 0;
 }
+    
 
-.tor .tertle {
+
+ .main-1 {
     position: absolute;
     width: 314.96px;
     height: 47px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    color: #FF0070;
     left: 20px;
-    top: 0;
-    font-family: IBM Plex Mono;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23.4px;
-    text-align: left;
-    color:#FF0070;
-}
 
-.tor .tertle-2 {
+ }
+
+
+ .subtitle-1 {
     position: absolute;
     width: 648.92px;
     height: 23px;
-    right: 20.19px;
-    top: 0;
-    font-family: IBM Plex Mono;
+    left: 354.89px;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
     color: #000028;
-    width: 649px;
-    height: 23px;
     background: #FF0070;
-}
+ }
 
-.tor .tertle-3 {
+ .text-1 {
     position: absolute;
     width: 648.92px;
     height: 211px;
-    right: 20.19px;
     top: 33px;
-    font-family: IBM Plex Mono;
-    font-weight: 400;
+    left: 354.89px;
     font-size: 18px;
+    font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #F1B2CE;
+ }
 
-}
-
-
-
-.tor .tertle-4 {
+ .subtitle-2 {
     position: absolute;
     width: 648.92px;
     height: 23px;
-    left: 355.08px;
     top: 264px;
-    font-family: IBM Plex Mono;
+    left: 355.08px;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
     color: #000028;
-    width: 649px;
-    height: 23px;
     background: #FF0070;
-}
+ }
 
-.tor .tertle-5 {
+ .text-2 {
     position: absolute;
     width: 648.92px;
     height: 211px;
-    left: 355.08px;
     top: 297px;
-    font-family: IBM Plex Mono;
+    left: 355.08px;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #F1B2CE;
-}
+ }
 
-.tor-2 {
+ .tor-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,131 +249,114 @@ p {
     position: absolute;
     width: 1024px;
     height: 498px;
-    left: 0;
+    left: 250px;
     top: 1416px;
-}
+ }
 
-.tor-2 .booblik {
+ .main-2 {
     position: absolute;
     width: 315px;
     height: 47px;
     left: 20px;
-    top: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
     color: #FF0070;
-}
+ }
 
-.tor-2 .kaka {
+ .kontainer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0;
     gap: 20px;
+
     position: absolute;
     width: 984px;
     height: 431px;
     left: 20px;
     top: 67px;
-}
+ }
 
-.kaka .booblik-2 {
+ .subtitle-3 {
     position: absolute;
     width: 315px;
     height: 23px;
-    left: 0;
-    top: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
     color: #000028;
-    width: 315px;
-    height: 23px;
     background: #FF0070;
-}
+ }
 
-.kaka .booblik-3 {
+ .text-3 {
     position: absolute;
     width: 315px;
     height: 351px;
-    left: 0;
     top: 33px;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #F1B2CE;
-}
+ }
 
-.kaka .booblik-4 {
+ .subtitle-4 {
     position: absolute;
     width: 315px;
     height: 23px;
     left: 335px;
-    top: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
     color: #000028;
-    width: 315px;
-    height: 23px;
     background: #FF0070;
-}
+ }
 
-.kaka .booblik-5 {
+ .text-4 {
     position: absolute;
     width: 315px;
     height: 328px;
     top: 33px;
     left: 335px;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #F1B2CE;
-}
+ }
 
-.kaka .booblik-6 {
+ .subtitle-5 {
     position: absolute;
     width: 315px;
     height: 23px;
     left: 670px;
-    top: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
     color: #000028;
-    width: 315px;
-    height: 23px;
     background: #FF0070;
-}
 
-.kaka .booblik-7 {
+ }
+
+ .text-5 {
     position: absolute;
     width: 315px;
     height: 398px;
     top: 33px;
     left: 670px;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #F1B2CE;
-}   
+ }
 
-.tor-3 {
+ .tor-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -397,25 +364,24 @@ p {
     position: absolute;
     width: 1024px;
     height: 1015px;
-    left: 0;
+    left: 250px;
     top: 1994px;
-}
+ }
 
-.tor-3 .vatrushka {
+ .main-3 {
     position: absolute;
-    width: 315px;
-    height: 98px;
-    left: 20px;
-    top: 0;
-    font-family: IBM Plex Mono;
+    width: 649px;
+    height: 23px;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
     color: #FF0070;
-}
+    left: 20px;
+ }
 
-.tor-3 .kaka-2 {
+.kontainer-2 {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -429,13 +395,10 @@ p {
     top: 0;
 }
 
-.kaka-2 .vatrushka-2 {
+.subtitle-6 {
     width: 649px;
     height: 23px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    top: 43px;
     font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 700;
@@ -445,29 +408,24 @@ p {
     background: #FF0070;
 }
 
-.kaka-2 .vatrushka-3 {
+.subtitle-7 {
     position: absolute;
     width: 649px;
     height: 23px;
-    left: 0;
     top: 43px;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #000028;
     background: #FF0070;
-
 }
 
-.kaka-2 .vatrushka-4 {
+.text-6 {
     position: absolute;
     width: 647.55px;
     height: 211px;
-    left: 0;
     top: 76px;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -475,29 +433,24 @@ p {
     color: #F1B2CE;
 }
 
-.kaka-2 .vatrushka-5 {
+.subtitle-8 {
     position: absolute;
     width: 649px;
     height: 23px;
-    left: 0;
-    top: 307px
-    font-family: IBM Plex Mono;
-    font-family: IBM Plex Mono;
+    top: 307px;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
-    text-align: left;  /* не робит нихуя */
-    
-
+    text-align: left;
+    color: #000028;
+    background: #FF0070;
 }
 
-.kaka-2 .vatrushka-6 {
+.text-7 {
     position: absolute;
     width: 649px;
     height: 117px;
-    left: 0;
     top: 340px;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -505,29 +458,24 @@ p {
     color: #F1B2CE;
 }
 
-.kaka-2 .vatrushka-7 {
+.subtitle-9 {
     position: absolute;
     width: 649px;
     height: 23px;
     top: 477px;
-    left: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #000028;
     background: #FF0070;
-
 }
 
-.kaka-2 .vatrushka-8 {
+.text-8 {
     position: absolute;
     width: 649px;
     height: 164px;
     top: 510px;
-    left: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -535,13 +483,11 @@ p {
     color: #F1B2CE;
 }
 
-.kaka-2 .vatrushka-9 {
+.subtitle-10 {
     position: absolute;
     width: 649px;
     height: 23px;
     top: 694px;
-    left: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -550,13 +496,11 @@ p {
     background: #FF0070;
 }
 
-.kaka-2 .vatrushka-10 {
+.text-9 {
     position: absolute;
     width: 649px;
     height: 118px;
     top: 727px;
-    left: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -564,13 +508,11 @@ p {
     color: #F1B2CE;
 }
 
-.kaka-2 .vatrushka-11 {
+.subtitle-11 {
     position: absolute;
     width: 649px;
     height: 23px;
     top: 865px;
-    left: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -579,22 +521,19 @@ p {
     background: #FF0070;
 }
 
-.kaka-2 .vatrushka-12 {
+.text-10 {
     position: absolute;
     width: 649px;
     height: 117px;
     top: 898px;
-    left: 0;
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
     color: #F1B2CE;
-
 }
+/* картинки*/
 
-/*Картинки*/
 .tor-4 {
     display: flex;
     flex-direction: column;
@@ -604,16 +543,16 @@ p {
     position: absolute;
     width: 1024px;
     height: 1091px;
-    left: 0;
+    left: 250px;
     top: 3089px;
 }
-
-.tor-4 .cheburek {
+/**/
+.tor-4 .kain {
     position: absolute;
     width: 984px;
     height: 23px;
     left: 20px;
-    top: 0;
+    top: -20px;
     font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 700;
@@ -623,7 +562,7 @@ p {
     background: #FF0070;
 }
 
-.tor-4 .kaka-3 {
+.tor-4 .pictures {
     width: 984px;
     height: 1091px;
     flex: none;
@@ -673,84 +612,47 @@ p {
     left: 20.24px;
 }
 
-/* коцовка */
+/* конец */
 
-.www {
+.footer {
     position: absolute;
     width: 1024px;
     height: 768px;  
-    left: 0;
+    left: 250px;
     top: 4240px;
 }
 
-
-
-/* хуйня
- .ger {
+.ending {
     position: absolute;
-    width: 314.96px;
-    height: 47px;
+    width: 471px;
+    height: 130px;
+    left: 277px;
+    top: 319px;
+    margin: 0;
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 129.53px;
+    color: #DB00FF;
+    text-shadow: 2px 2px 0 #FF0070;
+
+}
+.borjomi-1 {
+    position: absolute;
+    border-top: 1px solid #ff0070;
+    border-right: 1px solid #ff0070;
+    width: 25px;
+    height: 25px;
+    left: 979px;
+    top: 20px;
+}
+
+.borjomi-2 {
+    position: absolute;
+    border-bottom: 1px solid #ff0070;
+    border-left: 1px solid #ff0070;
+    width: 25px;
+    height: 25px;
     left: 20px;
-    font-family: IBM Plex Mono;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23.4px;
-    text-align: left;
-    color: #FF0070;
-    top: 828px;
- }
-
- .lol {
-    position: absolute;
-    width: 649px;
-    height: 23px;
-    background: #FF0070;
-    top: 828px;
-    
- }
-
-.qwert {
-    position: absolute;
-    width: 648.92px;
-    height: 23px;
-    left: 354.89px;
-    font-family: IBM Plex Mono;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23.4px;
-    color: #000028;
-    text-align: center;
-    top: 828px;
-
+    top: 723px;
 }
-
-.franklin {
-    position: absolute;
-    width: 648.92px;
-    height: 211px;
-    top: 33px;
-    left: 354.89px;
-    font-family: IBM Plex Mono;
-    font-weight: 400;
-    line-height: 23.4px;
-    color:#F1B2CE;
-    top: 861px;
-    left: 354px;
-}
- .back {
-    margin: 0 auto;
-    position: relative;
-    width: 1024px;
-    height: 768px;
-    background: #000028;
-   
- }
- 
- .tor {
-    width: fixed 1024px;
-    height: fixed 508px;
-    top: 828px;
-    padding: 0px 20px 0px 20px;
-    
- }
-*/
